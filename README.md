@@ -1,3 +1,2 @@
 # Sultry-Silk
-Website I made for my Front-End Web Development class. This website ecplores the intersection of fashion and other fields of study
-and how each are complementary.  
+Website I made for my Front-End Web Development class. This website explores the intersection of fashion and other fields of study and how each are complementary. I first talk about the fashion icons that revolutionized the fashion industry and set the standards for haute contour and ready-to-wear fashion. I then delve into the fashion world where designers are utilizing the power of 3D printed fabrics and laser cutting to create beautiful and intricate dresses. I also talk about how designers are stitching sustainability into everything they make and trying to create a more environmentally-conscious fashion landscape. And last but not least, I explore how fashion is being used as a platform for advocacy and change.
