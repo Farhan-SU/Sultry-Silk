@@ -1,0 +1,301 @@
+html,
+body {
+  overflow-x: hidden; /* Prevent scroll on narrow devices */
+  max-height: 70em;
+}
+
+
+ .nav-scroller {
+    position: relative;
+    z-index: 2;
+    height: 2.75rem;
+    overflow-y: hidden;
+}
+
+h2{
+  margin-top: -9rem;
+  float: left;
+  z-index: 1;
+  position: relative;
+  font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
+  margin-left: -2rem;
+  font-size: 1.6rem;
+  padding-right: 40rem;
+}
+.nav-scroller .nav {
+    display: flex;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    padding-bottom: 1rem;
+    margin-top: -1px;
+    overflow-x: auto;
+    color: rgba(255, 255, 255, .75);
+    text-align: center;
+    white-space: wrap;
+    -webkit-overflow-scrolling: touch;
+  }
+  
+  .nav-underline .nav-link {
+    padding-top: .75rem;
+    padding-bottom: .75rem;
+    font-size: .875rem;
+    color: #6c757d;
+  }
+  
+  .nav-underline .nav-link:hover {
+    color: #007bff;
+  }
+  
+  .nav-underline .active {
+    font-weight: 500;
+    color: #343a40;
+}
+
+.btn-outline-secondary{
+    margin-right: 2.6rem;
+}
+
+li{
+    margin: 0.5rem;
+    padding-left: 0.2rem;
+}
+.logo{
+    max-width: 100%;
+    padding-left: 3rem;
+    padding-top: 0.71rem;
+    flex-basis: max-content;
+    position: relative;;
+    z-index: 2;
+    margin-top: 5rem;
+    margin-left: -7.5rem;
+}
+.logo-box{
+  max-width: 100%;
+  overflow: hidden;
+}
+.bg-dark{
+    background-color: black !important;
+    opacity: 0.6;
+}
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;}
+
+*, *::before, *::after {
+box-sizing: border-box;
+}
+
+.justify-content-between {
+  justify-content: space-between !important;
+  margin-left: -40px;
+}
+.navbar-nav{
+  flex-wrap: wrap;
+  padding-left: 2.3rem;
+  font-size: 1.2rem;
+}
+
+.nav-link{
+  transition: background 500ms ease-in; 
+}
+
+.buttons{
+  transition: text-decoration-line .3s;
+  transition: background 500ms ease-in; 
+  
+}
+.buttons:hover{
+  text-decoration-line: underline;
+  text-shadow: 1px 1px 2px white, 0 0 10px blue, 0 0 5px darkblue;
+ 
+}
+.buttons:active{
+  color: white;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -50px;
+  margin-left: -50px;
+}
+
+.row {
+  display: flex;
+  padding-top: 50px;
+  padding-bottom: 70px;
+  
+}
+video{
+  max-height: 100%;
+  margin-left: -10em;
+  z-index: -1;
+  margin-top: -60rem;
+  overflow-y: hidden;
+}
+
+.col {
+  flex: 1;
+}
+body{
+  color: white;
+  background: black;
+  margin: auto;
+  font-size: 1em;
+  line-height: 1.5;
+  color: white;
+}
+h1,p{
+ color: white;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Josefin+Sans:300,400);
+* {
+  margin: 0;
+  padding: 0;
+}
+html, body {
+  height: 100%;
+}
+section {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+section::after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  content: '';
+  width: 100%;
+  height: 80%;
+  background: -webkit-linear-gradient(top,rgba(0,0,0,0) 0,rgba(0,0,0,.8) 80%,rgba(0,0,0,.8) 100%);
+  background: linear-gradient(to bottom,rgba(0,0,0,0) 0,rgba(0,0,0,.8) 80%,rgba(0,0,0,.8) 100%);
+}
+
+.demo a {
+  position: absolute;
+  bottom: 1.7625em;
+  left: 90%;
+  z-index: 2;
+  display: inline-block;
+  -webkit-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+  color: #fff;
+  font : normal 500 1rem/1 'Josefin Sans', sans-serif;
+  letter-spacing: .1em;
+  text-decoration: none;
+  transition: opacity .3s;
+}
+.demo a:hover {
+  opacity: 0.5;
+}
+
+.scroll-link{
+  margin-right: -10rem;
+  padding-left: 30rem;
+}
+
+#section03 a {
+  padding-top: 4rem;
+  margin-bottom: 8rem;
+  margin-left: -1rem;
+}
+#section03 a span {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 46px;
+  height: 46px;
+  margin-left: -23px;
+  border: 1px solid #fff;
+  border-radius: 100%;
+  box-sizing: border-box;
+}
+#section03 a span::after {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  content: '';
+  width: 16px;
+  height: 16px;
+  margin: -9px 0 0 -9px;
+  border-left: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  -webkit-transform: rotate(-133deg);
+  transform: rotate(-133deg);
+  box-sizing: border-box;
+}
+#section03 a span::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  content: '';
+  width: 44px;
+  height: 44px;
+  box-shadow: 0 0 0 0 rgba(255,255,255,.1);
+  border-radius: 100%;
+  opacity: 0;
+  -webkit-animation: sdb03 3s infinite;
+  animation: sdb03 3s infinite;
+  box-sizing: border-box;
+}
+@-webkit-keyframes sdb03 {
+  0% {
+    opacity: 0;
+  }
+  30% {
+    opacity: 1;
+  }
+  60% {
+    box-shadow: 0 0 0 60px rgba(255,255,255,.1);
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes sdb03 {
+  0% {
+    opacity: 2;
+  }
+  30% {
+    opacity: 3;
+  }
+  60% {
+    box-shadow: 0 0 0 60px rgba(255,255,255,.1);
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width:580px){
+  .bg-dark{opacity: 0.8;}
+  .logo{
+        max-width: 80%;
+        padding-left: 1rem;
+        margin-left: 1rem;
+        margin-top: 6rem;
+      }
+  h2{
+    margin-left: 3rem;
+    margin-right: -2rem;
+    padding-right: 1rem;
+    font-size: 100%;
+    padding-bottom: 5rem;
+  }
+  video{ display: none;
+  }
+.bg_image_mobile{
+  background-image: url('./images/IVH2.jpg');
+  display: flex;
+}
+  
+  .demo{
+    margin-left: -4rem;
+    margin-top: 8rem;
+  }
+}
