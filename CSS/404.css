@@ -1,0 +1,147 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    height: 100vh;
+    background-color: #FFFFFF;
+    color: #290303;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    align-items: center;
+  }
+  .error{
+    margin-top: 5rem;
+    padding: 2rem;
+  }
+  h1{
+    position: relative;
+    flex-wrap: wrap;
+    flex-basis: auto;
+    flex-grow: 2;
+    flex-direction: row;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-size: 17em;
+    letter-spacing: 4px;
+    overflow: hidden;
+    background: linear-gradient(90deg, #390000, #CB3333, #000);
+    background-repeat: no-repeat;
+    background-size: 85%;
+    animation: animate 5s linear infinite;
+    background-clip: text;
+    -webkit-text-fill-color: rgba(255, 255, 255, 0);
+  }
+  
+  @keyframes animate {
+    0% {
+      background-position: -500%;
+    }
+    100% {
+      background-position: 500%;
+    }
+  }
+
+  h2{
+      font-size: 3rem;
+      flex-wrap: wrap;
+      flex-grow: 0;
+  }
+  .nav-scroller {
+    z-index: -1;
+    position: relative;
+    height: 2.75rem;
+    overflow-y: hidden;
+    color: black;
+}
+
+.nav-scroller .nav {
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 1rem;
+    margin-top: -1px;
+    overflow-x: auto;
+    color: black;
+    text-align: center;
+    white-space: wrap;
+  }
+  
+  .nav-underline .nav-link {
+    font-size: .875rem;
+    color: black;
+  }
+  
+  .nav-underline .nav-link:hover {
+    background-color: black;
+  }
+  
+.btn-outline-secondary{
+    margin-right: 2.6rem;
+    color: black;
+}
+
+li{
+    padding-left: 0.2rem;
+    color: black;
+}
+.logo{
+    max-width: 50%;
+    margin: auto;
+    flex-shrink: 2;
+    flex-grow: 0;
+    padding-left: 0rem;
+    padding-top: 0.71rem;
+    flex-basis: max-content;
+}
+.nav-link{
+  transition: background 500ms ease-in; 
+}
+.buttons{
+  transition: text-decoration-line .3s;
+  transition: background 500ms ease-in; 
+}
+.buttons:hover{
+  text-decoration-line: underline;
+  color: #000;
+ 
+}
+.bg-dark{
+    background-color: white !important;
+}
+
+@media only screen and (max-width: 400px){
+  body{
+    background-color: black;
+  }
+  body > li{
+    text-align: left;
+  }
+  
+  .nav-scroller .nav {
+    justify-content: space-between;
+  }
+  .bg-dark{
+    background-color: black !important;
+  }
+  .logo{
+    width: 40%;
+    margin-left: -5rem;
+    padding-left: 0.2rem;
+  }
+
+  .btn-outline-secondary{
+    color: white;
+}
+h1{
+  font-size: 9rem;
+  justify-content: center;
+  align-content: center;
+}
+  .error{
+    margin-top: 3rem;
+  }
+  h2{
+    font-size: 1.5rem;
+    color: white;
+  }
+}
